@@ -1,0 +1,172 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* ##############################################
+##################################################
+##################################################
+############################################# */
+
+body{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("background.jpg");
+    background-size: cover;
+    
+}
+
+
+/* Blocks############################################# */
+
+/* whole Nav Bar*/
+
+.nav-bar{
+    width: 100%;
+    height: 14%;
+    background-color:transparent;
+    
+}
+
+ /* Whole Middle Bar*/
+
+ .middle{
+  background-color: black;
+  width: 50%;
+  height: 25%;   
+  border:3px solid wheat;
+  border-radius: 20px;
+  margin-left: 25%;
+  margin-top: 10%;
+ }
+
+ /* Content in Blocks ################################## */
+
+ /* Content in Nav Bar*/
+
+ .nav-bar h1{
+    color:#E82E06;
+    text-transform: uppercase;
+    font-family:cursive;
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 5px 5px 12px whitesmoke;
+     }
+     .nav-bar a{
+         text-decoration: none;
+     }
+
+
+/* Content in Middle Block*/
+.email{
+     margin-left: 30%;
+     margin-top: 8%;
+}
+
+.email input{
+    border-radius: 20px;
+    padding: 15px 15px;
+}
+.email button{
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+.email button:hover{
+    color: rgba(247, 242, 242, 0.952);
+    background-color: rgba(194, 16, 16, 0.952);
+}

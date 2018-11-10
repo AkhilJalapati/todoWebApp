@@ -1,0 +1,239 @@
+﻿/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+/*####################################
+######################################
+#####################################
+####################################
+###################################*/
+
+/* Main Code Starts Here*/
+
+body{
+    background-image: url("background.jpg");
+    background-size: 100%;
+    
+    
+}
+
+/*Whole Blocks Manipulation*/
+
+/*Total Menu Bar*/
+.nav-bar{
+    width: 100%;
+    height: 14%;
+    background-color:transparent;
+    
+}
+
+/*Total Main Block*/
+.main{
+    width: 73%;
+    height: 525px;
+    float: right;
+    margin-top: 21px;
+    background-color:transparent;
+    border-radius: 20px;
+    border:3px solid wheat;
+    
+}
+/*Total Side Login Bar*/
+.side-bar{
+    width: 25%;
+    height: 525px;
+    background: #c0392b;
+    border-radius: 20px;
+    border:3px solid wheat;
+    margin-top: 21px;
+}
+
+/*#############################################
+############################################
+############################################*/
+
+
+ /*Content in Menu Bar*/
+
+ .nav-bar h1{
+color:#E82E06;
+
+text-transform: uppercase;
+font-family:cursive;
+text-align: center;
+font-size: 70px;
+text-shadow: 5px 5px 12px whitesmoke;
+ }
+ .nav-bar a{
+     text-decoration: none;
+ }
+ 
+
+
+/*Content in Main Block*/
+.main h1{
+    color: white;
+    font-family: cursive;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+
+}
+.main img{
+    width: 90%;
+    
+}
+#fb-page{
+    color:#2980b9;
+    text-decoration: none;
+}
+#fb-page:hover{
+    text-decoration: underline;
+}
+/*Content in Sign-up Bar*/
+.side-bar h1{
+    color: white;
+    text-align: center;
+    font-family: cursive;
+    font-size: 25px;
+    margin-top: 20%;
+}
+.signup-pan{
+    margin-left: 20%;
+    margin-top: 18%;
+}
+.signup-pan input{
+    padding:10px;
+    border:oldlace;
+    margin: 10px;
+    border-radius: 10px;
+    display: block;
+}
+.signup-pan button{
+    margin-left: 5px;
+    padding:10px;
+    border:oldlace;
+    border-radius: 10px; 
+    margin: 10px;
+    cursor: pointer;
+}
+.signup-pan button:hover{
+    color: white;
+    background-color: #2980b9;
+}
+.login-pan{
+    margin-left: 25%;
+}
+.login-pan p{
+    color: white;
+    font-family: cursive;
+}
+.login-pan button{
+    margin-left: 5px;
+    padding:10px;
+    border:oldlace;
+    border-radius: 10px; 
+    margin: 10px;
+    cursor: pointer;
+}
+.login-pan button:hover {
+    color: white;
+    background-color: #2980b9;
+}

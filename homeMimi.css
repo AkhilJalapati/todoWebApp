@@ -1,0 +1,190 @@
+body{
+    background-image: url( 'background.jpg' );
+    background-size: cover;
+}
+
+/* ######################################################## */
+/* Nav Bar */
+
+nav{
+    background:#c0392b;
+    width: 100%;
+    height: 75px;
+   
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    float:left;
+    margin-top: 2%;
+    margin-right: 150px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 20px;
+   
+    
+}
+
+nav ul a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-weight: bolder;
+}
+
+nav ul a:hover{
+    
+    font-size: 20px;
+    
+}
+
+nav button{
+    float: right;
+    margin-top: 2%;
+    margin-right: 50px;
+    background: #2980b9;
+    color: white;
+    padding: 5px;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+nav button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* ########################################################## */
+/* Task Block */
+
+#container{
+    width: 100%;
+    height: 520px;
+    margin-top: 10px;
+    /* border:5px solid rgb(83, 86, 97); */
+    border-radius: 10px;
+    text-align: center;
+}
+
+#container2{
+    width: 100%;
+    height: 360px;
+    overflow-y: auto;
+    margin-top: 20px;
+}
+
+#container h1{
+    width: 25%;
+    margin-left: 38%;;
+    text-transform: uppercase;
+    background: #8aadc4;
+    color: white;
+    border-radius: 10px;
+}
+
+#container ul{
+    margin-top: 35px;
+    padding-left: 0;
+}
+
+#container ul li{
+    list-style: none;
+    border: 1px solid rgb(116, 101, 101);
+    width: 80%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    height: 50px;
+    margin: 5px auto;
+    text-align: left;
+    font-size: 20px;
+    font-family: cursive;
+    overflow: auto;
+    background: #30505f;
+    color: azure;
+}
+
+
+#container ul li .check{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    -webkit-appearance: none;
+    border: 1px solid black;
+    position: relative;
+    outline: 0;
+    background: whitesmoke;
+}
+
+#container ul li .check:checked:after{
+    content: '\2714';
+    font-size: 20px;
+    position: absolute ;
+    top: 0px;
+    left: 7px;
+    color: rgb(59, 13, 13);
+}
+
+#container ul li input:checked+label{
+    text-decoration: line-through;
+    color: rgba(46, 42, 42, 0.705)
+}
+
+#container .control{
+    width:60%;
+    margin: auto;
+}
+
+#container .control #input{
+    width:100%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    border: 2px solid #b5c5dd;
+    border-radius: 10px;
+    font-family: cursive;
+}
+
+
+#container .control #input:focus{
+    outline: 0;
+}
+
+#container .control button{
+    width: 25%;
+    background: white;
+    border:none;
+    height: 30px;
+    margin-top: 2px;
+    cursor: pointer;
+    color: white;
+}
+
+#container .control button:focus{
+    outline: 0;
+}
+
+#container .control button:hover{
+    transform: scale(1.05);
+}
+
+#container .control #add{
+    background-color: #2980b9;
+    border-radius: 10px;
+}
+
+#container .control #remove{
+    background-color: #c0392b;
+    border-radius: 10px;
+}
+
+#container .item{
+   opacity: 1;
+    border-radius: 10px;
+}
+
+.visual{
+    opacity: 1 !important;
+    border-radius: 10px;
+}
