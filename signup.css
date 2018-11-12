@@ -1,4 +1,4 @@
-﻿/* 
+/* 
 html5doctor.com Reset Stylesheet
 v1.6.1
 Last Updated: 2010-09-17
@@ -153,19 +153,16 @@ body{
  /*Content in Menu Bar*/
 
  .nav-bar h1{
-color:#E82E06;
-
-text-transform: uppercase;
-font-family:cursive;
-text-align: center;
-font-size: 70px;
-text-shadow: 5px 5px 12px whitesmoke;
- }
- .nav-bar a{
-     text-decoration: none;
- }
- 
-
+    color:rgb(255, 254, 254);
+    background: #2980b9;
+    text-transform: uppercase;
+    font-family:cursive;
+    text-align: center;
+    font-size: 70px;
+     }
+     .nav-bar a{
+         text-decoration: none;
+     }
 
 /*Content in Main Block*/
 .main h1{
