@@ -179,6 +179,12 @@ nav button:hover{
     border-radius: 10px;
 }
 
+#container .control #reset{
+    background-color: #494646;
+    border-radius: 10px;
+    color: white;
+}
+
 #container .item{
    opacity: 1;
     border-radius: 10px;
