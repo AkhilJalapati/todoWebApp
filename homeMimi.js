@@ -4,6 +4,9 @@ addTodo.addEventListener('click',addItem)
 var removeTodo=document.getElementById('remove')
 removeTodo.addEventListener('click',removeItem)
 
+var reset=document.getElementById('reset')
+reset.addEventListener('click',removeAll)
+
 var ul=document.getElementById('list')
 
 var li;
@@ -47,4 +50,12 @@ function removeItem(){
         }
         
     }
+}
+
+function removeAll(){
+    li=ul.children
+    for (let index = 0; index < li.length; index++) {
+       ul.removeChild(li[index])
+        
+    } 
 }
